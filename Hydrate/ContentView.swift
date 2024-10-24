@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @State var BodyWeight: Double = 0.0
     @State var value : String = ""
-    @State var BW : String = "Body Weight"
+    @State var weight : Double=0.0
+    @State var p1 : person = person()
     var body: some View {
         
         NavigationView{
@@ -42,13 +42,15 @@ struct ContentView: View {
                             .frame(width:350, height: 49, alignment:.center)
                             .padding(.leading,10).padding(.top,20)
                             .foregroundStyle(.black)
+
                         Text("Body weight").font(.system(size: 17, weight: .regular))
                             .frame(width:230, alignment: .leading)
                     }
                     
                     
                     Button(action: {
-                        value = ""
+                        weight = Double(value) ?? 0
+                        p1.weight = weight
                     },label: {
                         Image(systemName: "xmark.circle.fill")
                     }).frame(width:20,height:22).padding(.trailing,60).foregroundStyle(Color.myGray)
@@ -66,7 +68,7 @@ struct ContentView: View {
             
             
             
-        }
+        }.navigationBarBackButtonHidden(true)
         
     }
 }
