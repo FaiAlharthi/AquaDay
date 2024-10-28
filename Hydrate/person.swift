@@ -11,8 +11,8 @@ struct person{
     
     
     func litersCalc (weightKG : Double) -> Double{
-        liters = ( weightKG * 0.03)
-        return liters
+        return weightKG * 0.03
+        
     }
     
 
