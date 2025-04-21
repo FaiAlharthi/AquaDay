@@ -23,9 +23,9 @@ struct LitersCounting: View {
                     .padding(.top, 50)
                 
                 HStack {
-                    Text("\(takenliters.formatted()) liter /")
+                    Text("\(takenliters.formatted()) liter")
                         .font(.system(size: 22, weight: .bold))
-                    Text("\(liters.formatted()) liter")
+                    Text("/ \(liters.formatted()) liter")
                         .font(.system(size: 22, weight: .bold))
                 }
                 .frame(width: 360, alignment: .leading)
@@ -61,6 +61,9 @@ struct LitersCounting: View {
                         Image(systemName: "hands.clap.fill")
                             .foregroundStyle(Color.yellow)
                             .font(.system(size: 76))
+                        
+
+                        
                     }
                 }
                 .frame(height: 500)
