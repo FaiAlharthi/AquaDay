@@ -1,6 +1,6 @@
-# 💧 Hydrate - Daily Water Tracker
+# 💧 AquaDay - Daily Water Tracker
 
-**Hydrate** is a simple and intuitive water tracking app designed to help users stay hydrated throughout the day. The app allows users to manually log their water intake and receive reminder notifications to ensure they reach their daily hydration goal.
+**AquaDay** is a simple and intuitive water tracking app designed to help users stay hydrated throughout the day. The app allows users to manually log their water intake and receive reminder notifications to ensure they reach their daily hydration goal.
 
 ---
 
@@ -25,6 +25,6 @@
 
 ## 📸 App Preview
 
-![Hydrate App Screens](./Hydrate.png)
+![AquaDay App Screens](./Hydrate.png)
 
 
