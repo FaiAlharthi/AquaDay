@@ -25,6 +25,6 @@
 
 ## 📸 App Preview
 
-![AquaDay App Screens](./Hydrate.png)
+![AquaDay App Screens](./Hydrate2.png)
 
 
